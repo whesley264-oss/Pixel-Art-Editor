@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #212121;
+}
+
+header {
+    background-color: #292929;
+    padding: 0 15px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.3);
+}
+
+header > h1 {
+    color: #ebebeb;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+aside {
+    width: 100%;
+    max-width: 270px;
+    background-color: #2c2c2c;
+    padding: 30px 20px 20px;
+    min-height: calc(100vh - 55px);
+}
+
+.canvas {
+    width: 100%;
+    max-width: 720px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: #555;
+}
+
+.row {
+    display: flex;
+    gap: 2px;
+}
+
+.pixel {
+    flex: 1;
+    aspect-ratio: 1;
+    background-color: #444;
+    user-select: none;
+    cursor: pointer;
+}
+
+.option-title {
+    color: #ebebeb;
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+}
+
+.input-size, .input-color {
+    margin: 5px 0 15px;
+}
+
+.input-size {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #212121;
+    outline: none;
+}
+
+.input-color {
+    appearance: none;
+    width: 42px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.input-color::-moz-color-swatch {
+    border-radius: 50px;
+    border: 2px solid #ebebeb;
+}
+
+.input-color::-webkit-color-swatch {
+    border-radius: 50px;
+    border: 2px solid #ebebeb;
+}
+
+.used-colors {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.button-color {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.button-save, .button-action {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+
+.button-save:hover, .button-action:hover {
+    background-color: #d5d4d4;
+}
