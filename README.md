@@ -24,4 +24,4 @@ O projeto permite desenhar, colorir e apagar pixels dentro de uma grade, criando
 ## 🚀 Como rodar o projeto
 1. Baixe ou clone este repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/pixel-art-editor.git
+   git clone https://github.com/whesley264-oss/Pixel-Art-Editor.git
